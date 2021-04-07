@@ -72,7 +72,9 @@ input{
     transition: transform 0.5s;
   }
   
-  
+  nav {
+      padding: 20px;
+  }
   section {
     display: flex;
     align-items: center;
