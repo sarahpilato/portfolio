@@ -82,6 +82,10 @@ input{
     height: 100vh;
   }
 
+  .content {
+      padding-left: 50px;
+  }
+
   section div {
     width: 350px;
   }
