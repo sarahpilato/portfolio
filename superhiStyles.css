@@ -1,0 +1,55 @@
+html {
+    font-size: 62.5%;
+}
+
+
+h1, p {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+a {
+    color: #2727e6;
+}
+
+.superhiProjects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 40vw;
+    height: 40vh;
+    margin-bottom: 30px;
+}
+
+nav {
+    padding: 20px;
+  }
+
+  nav a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #d3b7b7;
+    padding: 10px;
+  }
+a {
+    color: #d3b7b7;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 60vw;
+        height: 40vh;
+    }
+}

@@ -75,7 +75,9 @@ input{
     padding: 20px;
     margin-bottom: 100px;
   }
-
+nav a {
+  padding: 10px;
+}
   section {
     display: flex;
     align-items: center;
@@ -122,14 +124,6 @@ input{
 
   a {
       color: #d3b7b7;
-  }
-  a.button {
-    display: inline-block;
-    background-color: #d3b7b7;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px 15px 10px 15px;
-    border-radius: 3px;
   }
   
   div.slides {
