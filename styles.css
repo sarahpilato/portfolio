@@ -97,6 +97,7 @@ input{
   
   section div.content {
     margin: 250px 0 0 60px;
+    padding-left: 50px;
   }
   .projects div.content {
     margin: 0 0 0 60px;
