@@ -82,7 +82,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 30vh;
   }
 
   .content {
@@ -90,9 +90,13 @@ nav a {
   }
 
   section div {
-    width: 350px;
+    width: 100vw;
   }
 
+  .slides {
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
   .projects div {
     width: 350px;
   }
