@@ -68,13 +68,12 @@ input{
     position: relative;
     z-index: 1;
     background-color: #ffffff;
-    min-height: 100vh;
     transition: transform 0.5s;
   }
   
   nav {
     padding: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
 
   section {
@@ -139,8 +138,8 @@ input{
   
   div.slides img {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 30px;
+    left: 35px;
     transition: transform 0.5s, box-shadow 0.5s;
   }
   
