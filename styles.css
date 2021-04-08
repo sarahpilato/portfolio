@@ -95,7 +95,7 @@ input{
   }
   
   section div.content {
-    margin: 0 0 0 60px;
+    margin: 250px 0 0 60px;
   }
   .projects div.content {
     margin: 0 0 0 60px;
@@ -115,6 +115,7 @@ input{
   }
   p {
     margin: 20px 0 20px 0;
+    padding: 15px;
   }
 
   a {
@@ -222,6 +223,19 @@ section.opened div.status {
 .mockup {
   width: 270px;
   height: 200px;
+}
+
+div.cursors div {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  width: 32px;
+  height: 32px;
+  background-color: #d3b7b7;
+  border-radius: 50%;
+  z-index: 10000;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
 }
 /* media queries */
 
