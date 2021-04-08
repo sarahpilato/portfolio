@@ -175,13 +175,48 @@ h2 {
 }
 
 h4 {
-    margin-top: 50px;
-    margin-bottom: 0;
+    margin: 10px auto;
     text-align: center;
 }
 
-.flexParentColumn {
-    margin-bottom: 20px;
+.accordianSection {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto 0fr;
+  padding: 10px 0 10 0;
+  grid-gap: 0 24px;
+  box-sizing: border-box;
+}
+
+section h4 {
+  cursor: pointer;
+  font-size: 2.3rem;
+}
+
+section div.info {
+  display: none;
+  font-size: 18px;
+  margin: 20px 0;
+  max-width: 40em;
+}
+
+section.opened div.info {
+  display: block;
+}
+
+section div.status {
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: 3px solid #f4f1d7;
+  border-radius: 100px;
+  margin-top: 8px;
+  transition: 0.3s;
+}
+
+section.opened div.status {
+  background: #d3b7b7;
 }
 
 

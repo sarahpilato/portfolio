@@ -14,36 +14,43 @@
         <a href="skills.html">Skills</a>
         <a href="projects.html">Projects</a>
     </nav>
-    <div class="projects">
-        <h2>Some projects that I've worked on</h2>
-        <div class="projectDiv wrapper">
-            <h4>Haikus Highway: A Haiku Generator</h4>
-            <img src="./assets/haikus-mockup copy.png" class="mockup">       
-            <div class="flexParentColumn">
-                <p> A React app that allows users to generate their own haikus! Stores haikus through Firebase, displaying past haikus in a collection.</p> 
-                <a href="https://github.com/teamAwesomenessest/haikusHighway" class="repoLink">View on Github</a>
-                <a href="https://haikushighway.netlify.app/" class="liveLink">View Live</a>
+    <div class="projects wrapper">
+        <h2>Projects</h2>
+        <section class="accordianSection wrapper">
+            <div class="status"></div>
+            <div class="container">
+                <h4> Haikus Highway </h4>
+                <div class="info">
+                    <p>A React app that allows users to generate their own haikus! Stores haikus through Firebase, displaying past haikus in a collection.</p> 
+                    <a href="https://github.com/teamAwesomenessest/haikusHighway" class="repoLink">View on Github</a>
+                    <a href="https://haikushighway.netlify.app/" class="liveLink">View Live</a></p>
+                </div>
             </div>
-        </div>     
-        <div class="projectDiv wrapper">
-            <h4>Honey: Sweet Skincare Reviews</h4>
-            <img src="./assets/honey-mockup copy.png" class="mockup">       
-            <div class="flexParentColumn">
-            <p> A React app that allows users to submit skincare reviews, and have said reviews render on the page through a Firebase database.</p> 
-            <a href="https://github.com/sarahpilato/sarah-pilato-project-3" class="repoLink">View on Github</a>
-            <a href="https://honey-reviews.netlify.app/" class="liveLink">View Live</a>
-            </div> 
-        </div>
-        <div class="projectDiv wrapper">
-            <h4>Sanctuary Helpers</h4>
-            <img src="./assets/sanctuaryMockup copy.png" class="mockup">       
-            <div class="flexParentColumn">
-            <p> A pixel-perfect three page PSD conversion using SASS.</p> 
-            <a href="https://github.com/carman-sarah/carmanSarahProjectOne" class="repoLink">View on Github</a>
-            <a href="https://carman-sarah.github.io/carmanSarahProjectOne/" class="liveLink">View Live</a>
-            </div> 
-        </div>
-
+        </section>
+        <section class="accordianSection wrapper">
+            <div class="status"></div>
+            <div class="container">
+                <h4> Honey: Sweet Skincare Reviews</h4>
+                <div class="info">
+                    <p>A React app that allows users to submit skincare reviews, and have said reviews render on the page through a Firebase database.</p> 
+                    <a href="https://github.com/sarahpilato/sarah-pilato-project-3" class="repoLink">View on Github</a>
+                    <a href="https://honey-reviews.netlify.app/" class="liveLink">View Live</a>
+                </div>
+            </div>
+        </section>
+        <section class="accordianSection wrapper">
+            <div class="status"></div>
+            <div class="container">
+                <h4> Sanctuary Helpers</h4>
+                <div class="info">
+                    <p> A pixel-perfect three page PSD conversion using SASS.</p> 
+                    <a href="https://github.com/carman-sarah/carmanSarahProjectOne" class="repoLink">View on Github</a>
+                    <a href="https://carman-sarah.github.io/carmanSarahProjectOne/" class="liveLink">View Live</a>
+                </div>
+            </div>
+        </section>
     </div>
+
+    <script src="./js/accordian.js"></script>
 </body>
 </html>
