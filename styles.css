@@ -219,7 +219,10 @@ section.opened div.status {
   background: #d3b7b7;
 }
 
-
+.mockup {
+  width: 270px;
+  height: 200px;
+}
 /* media queries */
 
 @media only screen and (max-width: 700px) {
