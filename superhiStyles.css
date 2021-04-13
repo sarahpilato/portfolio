@@ -53,3 +53,10 @@ a {
         height: 40vh;
     }
 }
+
+@media only screen and (max-width: 450px) {
+    img {
+        width: 80vw;
+        height: 40vh;
+    }
+}
