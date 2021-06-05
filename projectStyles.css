@@ -16,7 +16,8 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 }
   .about,
   .honey,
-  .movie a {
+  .movie,
+  .hangman a {
     font-size: 3.2rem;
   }
   
@@ -26,7 +27,8 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
   
   .about-modal,
   .about-movie,
-  .about-honey {
+  .about-honey,
+  .about-hangman {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -41,13 +43,15 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
   
   .about-modal
   .about-movie,
-  .about-honey  h2 {
+  .about-honey,
+  .about-hangman  h2 {
     font-size: 40px;
   }
   
   .about-modal
   .about-movie,
-  .about-honey  p {
+  .about-honey,
+  .about-hangman  p {
     margin-top: 20px;
     font-size: 21px;
     line-height: 1.3;
@@ -55,7 +59,8 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
   
   .about-modal .close,
   .about-movie .movie-close,
-  .about-honey .honey-close {
+  .about-honey .honey-close,
+  .about-hangman .hangman-close {
     position: absolute;
     top: 0;
     right: 20px;
@@ -65,7 +70,8 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
   
   .close:hover,
   .movie-close:hover,
-  .honey-close:hover {
+  .honey-close:hover,
+  .hangman-close:hover {
     background-color: black;
     padding: 5px 10px;
     color: white;

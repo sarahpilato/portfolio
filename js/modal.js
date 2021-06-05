@@ -8,6 +8,9 @@ const movieClose = document.querySelector(".movie-close");
 const honeyLink = document.querySelector(".honey");
 const aboutHoney = document.querySelector(".about-honey");
 const honeyClose = document.querySelector(".honey-close");
+const hangmanLink = document.querySelector(".hangman");
+const aboutHangman = document.querySelector(".about-hangman");
+const hangmanClose = document.querySelector(".hangman-close");
 
 aboutLink.addEventListener("click", function () {
   aboutModal.classList.remove("d-none");
@@ -32,4 +35,12 @@ movieLink.addEventListener("click", function () {
   
   honeyClose.addEventListener("click", function () {
     aboutHoney.classList.add("d-none");
+  });
+
+  hangmanLink.addEventListener("click", function () {
+    aboutHangman.classList.remove("d-none");
+  });
+  
+  hangmanClose.addEventListener("click", function () {
+    aboutHangman.classList.add("d-none");
   });
